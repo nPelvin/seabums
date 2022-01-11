@@ -5,11 +5,11 @@ export const configuredHelmet = () =>
 	helmet({
 		contentSecurityPolicy: {
 			directives: {
-				defaultSrc: ["'self'"],
+				defaultSrc: ["'self'", "lh3.googleusercontent.com"],
 				objectSrc: ["'none'"],
 				scriptSrc: ["'self'", "unpkg.com", "polyfill.io"],
 				styleSrc: ["'self'", "https: 'unsafe-inline'"],
-				imageSrc: ["lh3.googleusercontent.com"],
+				imageSrc: ["'self'", "lh3.googleusercontent.com"],
 				upgradeInsecureRequests: [],
 			},
 		},
