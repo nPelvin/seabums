@@ -19,6 +19,12 @@
 	padding: 2px;
 }
 
+.form {
+	height: 2em;
+	padding: 0.23em;
+	margin: 0.23em;
+}
+
  @media only screen and (max-width: 550px){
 .bum {
 	flex-Direction: row;

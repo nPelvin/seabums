@@ -32,14 +32,14 @@ export function Home() {
 
 			<div className="bum"><img alt="seabum" src={selectedImage + "=w560"}></img><h3>Rank: {selectedRank} {" - #"}{selectedNumber}</h3>
 
-			<form>
+			<form className="form">
 				<label>
 					Number:
-					<input type="text" name="name" 
+						<input type="text" name="name" className="form"
 					onChange={(e)=>setSearch(e.target.value)}
 />
 				</label>
-				<button onClick={
+					<button className="form" onClick={
 					(e) => { 
 						e.preventDefault(); 
 						setSelectedNumber(search);
