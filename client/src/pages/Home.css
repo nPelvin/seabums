@@ -9,3 +9,16 @@
 .message:hover {
 	background-color: yellow;
 }
+
+.bum {
+	display: flex;
+	flex-Direction: column;
+	flex-Wrap: wrap;
+	padding: 2px;
+}
+
+ @media only screen and (max-width: 550px){
+.bum {
+	flex-Direction: row;
+}
+}

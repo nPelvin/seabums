@@ -21,7 +21,7 @@ export function Home() {
 	return (
 		<main role="main">
 			<h1>{message}</h1>
-			<div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
+			<div className="bum">
 				{images.map((x, index) => <div key= { index }><img alt="seabum" src={x.image + "=w181"}></img><h3>Rank:{index+1}{" - #"}{x.id}</h3></div>)}
 			</div>
 
