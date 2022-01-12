@@ -12,6 +12,8 @@
 
 .bum {
 	display: flex;
+	justify-self: center;
+	align-items: center;
 	flex-Direction: column;
 	flex-Wrap: wrap;
 	padding: 2px;
